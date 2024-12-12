@@ -8,6 +8,8 @@ llave_privada = rsa.generate_private_key(
     key_size=2048,
     backend=default_backend()
 )
+
+#Generacion de LLave publica.
 llave_publica = llave_privada.public_key()
 
 # Mi mensaje original que encriptare
